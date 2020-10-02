@@ -50,7 +50,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-*.ipynb_checkpoints
+*/.ipynb_checkpoints
 
 # Translations
 *.mo
