@@ -1,0 +1,9 @@
+gensim
+nltk
+wordcloud
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pyLDAvis

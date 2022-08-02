@@ -1,23 +1,31 @@
-# Modelagem de Tópicos utilizando o modelo Latent Dirichlet Allocation (LDA)
+# Topic Modeling using Latent Dirichlet Allocation (LDA)
 
-Será aplicado o modelo LDA a coleção de documentos do GT-8 ENANCIB (Informação e Tecnologia do Encontro Nacional de Pesquisa em Ciência da Informação).
+This repository presents a simple application of the Latent Dirichlet Allocation (LDA) model for topic modeling. The project consists of applying the LDA model to the document collection of the GT-8 ENANCIB (Information and Technology of the National Meeting of Research in Information Science).
 
-## Coleção de Documentos
-* O corpus é constituído por 273 documentos (artigos completos e resumos expandidos entre os anos de 2012 e 2019).
+## Collection
+* The corpus consists of 273 documents (full articles and extended abstracts between 2012 and 2019).
 
-## Analise Exploratória
+## Requirements
+* Python3
+* python3.8-venv
+
+## Exploratory Data Analysis
 * Wordcloud
 
-## Pré-processamento dos dados
-* Conversão de termos
-* Configuração de stopwords
-* Aplicação dos modelos de bigrama e trigrama
-* Tokenização
+## Data pre-processing
+* Conversion of terms
+* Stopwords configuration
+* Bigram e trigram models
+* Tokenization
 
-## Processos importantes que podem ainda ser feitos no pré-processamento
-* Remoção de palavras com menos de 3 caracteres
-* Remoção de palavras irrelevantes
-* Processos de Stemming e Lemmatization
+## What can still be done
+* Removal of words less than 3 characters
+* Removal of irrelevant words
+* Stemming e Lemmatization
 
-## Ferramentas utilizadas
-* Google Colabory
+## How to run
+* Start the project by preparing the environment through the command:
+```
+$ source prepare-env.sh
+```
+* Now you can use the notebook ```TopicModel_LDA``` in your prefer code editor.
